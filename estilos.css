@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    min-width: 100%;
+    height: 3.5em;
+    font-size: 2.2em;
+    padding: 30px;
+    background-color:rgb(241, 241, 241);
+    color: #0e1c2c;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#ficha-personal .container .foto{
+    height: 350px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    margin: 35px;
+    background-size: cover;
+}
+
+#ficha-personal .container .foto img{
+    border-radius: 25px;
+    margin: 35px 50px;
+}
+
+#ficha-personal .container ul li{
+    justify-content: center;
+    margin: 0 25px 15px 25px;
+    font-size: 1.6em;    
+}
+
+#ficha-personal .container ul{
+    margin-bottom: 50px;
+}
+
+
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(241, 241, 241);
+}
+
+.logo-uade img{
+    height: 170px;
+}
+
+@media (min-width:768px){
+    #ficha-personal .container .foto{
+        height: 500px;
+    }
+
+}
+
+@media (min-width:1200px){
+    #ficha-personal .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1000px;
+    }
+
+    #ficha-personal .container .foto {
+        height: 768px;
+        justify-content: center;
+    }
+
+    #ficha-personal .container .foto img{
+        height: 700px;
+        justify-content: center;
+    }
+
+    #ficha-personal .container ul{
+        margin: 35px;
+        justify-content: space-around;
+        line-height: 3em;
+    }
+}
+
+@media (max-width:500px){
+    h1{
+        font-size: 2em;
+    }
+
+    #ficha-personal .container ul li{
+        font-size: 1.2em;
+    }
+}
